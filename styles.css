@@ -1,0 +1,55 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.message {
+    background: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    font-size: 18px;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #0288d1;
+    color: white;
+}
+
+
+.accordion-button {
+    background-color: #0288d1;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #81d4fa;
+    color: black;
+}
+
+
+.video-container {
+    margin-top: 30px;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
